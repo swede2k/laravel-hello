@@ -1,0 +1,32 @@
+{
+    "name": "swede2k/laravel-hello",
+    "description": "Laravel Hello World simple package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmitriy Shved",
+            "email": "swede2k@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php" : ">=5.3.0",
+        "illuminate/support": "~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "swede2k\\Hello\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+              "swede2k\\Hello\\ServiceProvider"
+            ],
+            "aliases": {
+              "Hello": "swede2k\\Hello\\Facade"
+            }
+        }
+    }
+}
