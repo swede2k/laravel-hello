@@ -2,7 +2,7 @@
 
 namespace swede2k\Hello;
 
-class ServiceProvider extends Illuminate\Support\ServiceProvider
+class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {
     public function boot()
     {

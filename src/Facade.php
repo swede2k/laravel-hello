@@ -2,7 +2,7 @@
 
 namespace swede2k\Hello;
 
-class Facade extends Illuminate\Support\Facades\Facade
+class Facade extends \Illuminate\Support\Facades\Facade
 {
     protected static function getFacadeAccessor()
     {
